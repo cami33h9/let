@@ -1,15 +1,408 @@
-.indhold2 .indhold3 {
+.indhold1 .indhold2 .indhold3 .indhold4 .indhold5 .indhold6 .indholdx {
   max-width: 1200px;
   margin: 100px;
   text-align: justify;
 }
 
+.indholdx {
+  margin-left: 15%;
+}
+
+#fourth_section {
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  background-color: #554688;
+  width: 100%;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+header {
+  color: rgb(253, 253, 253);
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.logo {
+  width: 70%;
+}
+
+h1 {
+  font-family: garage-gothic, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-family: garage-gothic, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 40px;
+  text-align: center;
+  line-height: 30px;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#first_section .indhold1 h1 {
+  color: #2b195e;
+  padding-top: 100px;
+  text-align: left;
+}
+
+#first_section .indhold1 h3 {
+  color: #2b195e;
+}
+
+#second_section .indhold2 h1 {
+  color: #811639;
+}
+
+#second_section .indhold2 h2 {
+  color: #811639;
+}
+
+#third_section .indhold3 h1 {
+  color: #dec7e8;
+}
+
+#third_section .indhold3 h3 {
+  color: #dec7e8;
+}
+
+#third_section .indhold3 .container .row h2 {
+  text-align: center;
+  color: white;
+}
+
+#third_section .indhold3 .container .row p {
+  text-align: center;
+  color: white;
+}
+
+#fourth_section .indhold4 h1 {
+  color: #e9c87c;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+#fourth_section .indhold4 h3 {
+  color: #e9c87c;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+#fourth_section .indhold4 .container .row p {
+  text-align: left;
+  color: #e9c87c;
+  padding-bottom: 20px;
+}
+
+#fifth_section .indhold5 h1 {
+  color: #811639;
+}
+
+#fifth_section .indhold5 h3 {
+  color: #811639;
+  padding-bottom: 50px;
+}
+
+#sixth_section .indhold6 h1 {
+  color: #899600;
+}
+
+#sixth_section .indhold6 h3 {
+  color: #899600;
+  padding-bottom: 50px;
+}
+
+.container-fluid {
+  color: #2b195e;
+}
+
+.navbar-collapse {
+  color: white !important;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.navbar-nav a:any-link {
+  color: white !important;
+}
+
+.navbar-nav a:hover {
+  color: #e9c87c !important;
+}
+
+.navbar-nav a:active {
+  color: #e9c87c !important;
+}
+
+.bowls {
+  max-width: 110%;
+  height: auto;
+}
+
+.bowl1 {
+  width: 100%;
+}
+
+.pil {
+  width: 20%;
+  padding-top: 20px;
+}
+
+nav {
+  flex-direction: row;
+  height: 10%;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#first_section {
+  background-image: url("img/background.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: 25% 10%;
+  max-width: none;
+}
+
+.yellowbox {
+  background-color: #e8c87d;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 50px;
+  height: 400px;
+}
+
 #second_section {
   background-color: #e6aac8;
 }
-h1 {
-  text-align: center;
+
+#third_section {
+  background-color: #554688;
 }
-.bowls {
+
+#fourth_section {
+  background-color: #2b195e;
+  height: auto;
+}
+
+#fifth_section {
+  background-color: #e6aac8;
+}
+
+#sixth_section {
+  background-color: #e8c87d;
+}
+
+.card-img {
+  background-color: blue;
+  opacity: ;
+}
+
+.card-text {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  z-index: 1;
+}
+
+.card-title {
+  text-align: center;
+  font-family: garage-gothic, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  color: white;
+  line-height: 32px;
+}
+
+.card {
+  border: none;
+  padding-bottom: 30px;
+  background-color: #e6aac8;
+}
+
+#footer {
   width: 100%;
+  height: 300px;
+  background-color: #2b195e;
+  text-align: center;
+  color: white;
+}
+
+.logofooter {
+  width: 8%;
+  margin: 30px;
+}
+
+@media (min-width: 576px) {
+  #second_section {
+    padding: 100px;
+  }
+
+  #third_section {
+    padding: 100px;
+  }
+
+  #fourth_section {
+  }
+
+  #fifth_section {
+    padding: 100px;
+  }
+
+  #sixth_section {
+    padding: 100px;
+  }
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%232b195e' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.myfixed {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+@media (max-width: 576px) {
+  .header {
+    background-color: transparent;
+    width: 100%;
+  }
+
+  .myfixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+
+  .navbar-collapse {
+    background-color: #2b195e;
+    padding: 40px;
+    width: 50px;
+  }
+
+  .navbar-light .navbar-toggler {
+    border: none;
+    box-shadow: none;
+  }
+
+  #first_section {
+    height: 600px;
+  }
+
+  .logo {
+    width: 40%;
+  }
+
+  .yellowbox {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 800px;
+  }
+
+  #first_section .indhold1 h1 {
+    color: #2b195e;
+    text-align: center;
+  }
+
+  .h3hidden {
+    padding-top: 20px;
+  }
+
+  .bowls {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .bowl1 {
+    width: 100%;
+  }
+
+  #second_section {
+    padding: 10px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+  }
+
+  #third_section {
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+
+  #fourth_section {
+    height: 780px;
+  }
+
+  .indholdx {
+    margin-left: 1px;
+  }
+
+  #fifth_section {
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  #sixth_section {
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  .logofooter {
+    width: 20%;
+    margin: 30px;
+  }
 }
