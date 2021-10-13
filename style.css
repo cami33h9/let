@@ -43,7 +43,7 @@ header {
 }
 
 .logo {
-  width: 70%;
+  width: 60%;
 }
 
 h1 {
@@ -75,9 +75,13 @@ p {
   line-height: 18px;
 }
 
+b {
+  font-weight: bold;
+}
+
 #first_section .indhold1 h1 {
   color: #2b195e;
-  padding-top: 100px;
+  padding-top: 30px;
   text-align: left;
 }
 
@@ -198,7 +202,7 @@ nav {
 #first_section {
   background-image: url("img/background.jpg");
   width: 100%;
-  height: 100vh;
+  height: 40rem;
   background-size: cover;
   background-position: 25% 10%;
   max-width: none;
@@ -236,11 +240,6 @@ nav {
   background-color: #e8c87d;
 }
 
-.card-img {
-  background-color: blue;
-  opacity: ;
-}
-
 .card-text {
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
@@ -261,17 +260,67 @@ nav {
 }
 
 .card {
+  background: #e8c87d;
   border: none;
-  padding-bottom: 30px;
-  background-color: #e6aac8;
+  margin-bottom: 50px;
+}
+
+#fifth_section .card img {
+  opacity: 0.3;
+}
+
+.card.billede1 {
+  background-color: #2b195e;
+}
+
+.card.billede2 {
+  background-color: #2b195e;
+}
+
+.card.billede3 {
+  background-color: #2b195e;
+}
+
+.card.billede4 {
+  background-color: #2b195e;
+}
+
+.zoom {
+  background-color: green;
+  transition: transform 0.2s; /* Animation */
+
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(
+    1.05
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#sixth_section .card-title {
+  color: #899600;
+  text-align: left;
+  font-size: 25px;
+}
+
+#sixth_section .card-text {
+  color: black;
+  text-align: left;
 }
 
 #footer {
   width: 100%;
-  height: 300px;
+  height: 350px;
   background-color: #2b195e;
   text-align: center;
   color: white;
+}
+
+.copyright p {
+  font-size: x-small;
+  color: #beeac1;
+  margin-top: 60px;
 }
 
 .logofooter {
@@ -312,6 +361,9 @@ nav {
 }
 
 @media (max-width: 576px) {
+  #sixth_section .col-md-4 .img-fluid {
+  }
+
   .header {
     background-color: transparent;
     width: 100%;
@@ -403,6 +455,15 @@ nav {
 
   .logofooter {
     width: 20%;
-    margin: 30px;
+    margin: 40px;
+  }
+
+  #footer {
+    height: 500px;
+  }
+
+  #sixth_section .card-title {
+    color: #899600;
+    text-align: center;
   }
 }
