@@ -76,7 +76,7 @@ p {
 }
 
 b {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #first_section .indhold1 h1 {
@@ -91,14 +91,18 @@ b {
 
 #second_section .indhold2 h1 {
   color: #811639;
+  padding-bottom: 5rem;
 }
 
 #second_section .indhold2 h2 {
   color: #811639;
+  margin-left: 2rem;
 }
 
 #second_section .indhold2 p {
   color: #811639;
+  padding-right: 5rem;
+  margin-left: 2rem;
 }
 
 #third_section .indhold3 h1 {
@@ -225,10 +229,15 @@ nav {
   text-align: center;
   margin-top: 70px;
   padding-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #second_section {
   background-color: #e6aac8;
+}
+
+.tekstfarve {
+  color: #554688;
 }
 
 #third_section {
@@ -535,6 +544,7 @@ nav {
   }
   #sixth_section .card-text {
     text-align: left;
+    margin-left: 6rem;
   }
 
   .indhold1 {
